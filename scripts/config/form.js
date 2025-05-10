@@ -5,7 +5,7 @@ import { ActionFormData, ModalFormData, MessageFormData, FormCancelationReason }
  * 
  * @param {Player} player 
  */
-export function config(player) {
+export function config1(player) {
     const form = new ActionFormData();
     form.body("");
     form.title("Config Form");
@@ -18,7 +18,7 @@ export function config(player) {
             player.sendMessage("test");
         }
         if (res.cancelationReason == FormCancelationReason.UserBusy) {
-            config(player);
+            config1(player);
             return;
         }
     })};

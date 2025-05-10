@@ -1,5 +1,7 @@
 //@ts-check
 
+//*TEST FILE*
+
 import { world, system } from "@minecraft/server";
 import "./config/cc";
 import "./config/config";
